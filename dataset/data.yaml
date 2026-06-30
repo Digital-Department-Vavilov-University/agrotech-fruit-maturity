@@ -1,0 +1,13 @@
+# YOLOv8 dataset config — Maturity Classification
+path: /home/claude/yolo_maturity/dataset
+train: images/train
+val:   images/val
+
+nc: 4
+names: ['unripe', 'semi_ripe', 'ripe', 'overripe']
+
+# Описание классов:
+# 0 unripe    — незрелый продукт
+# 1 semi_ripe — полузрелый
+# 2 ripe      — зрелый / готовый к уборке
+# 3 overripe  — перезрелый

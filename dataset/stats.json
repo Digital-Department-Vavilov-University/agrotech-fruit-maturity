@@ -1,0 +1,10 @@
+{
+  "train": 80,
+  "val": 20,
+  "class_counts": {
+    "unripe": 60,
+    "semi_ripe": 74,
+    "ripe": 59,
+    "overripe": 67
+  }
+}
